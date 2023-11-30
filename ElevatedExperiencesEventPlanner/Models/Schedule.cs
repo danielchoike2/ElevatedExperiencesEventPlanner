@@ -7,7 +7,11 @@ namespace ElevatedExperiencesEventPlanner.Models
         public int ID { get; set; }
         [Display(Name = "Service Date")]
         [DataType(DataType.Date)]
+        
         public DateTime ScheduleDate { get; set; }
+        
+
+        public string Location { get; set; }
         [Display(Name = "Service Name")]
         public string ServiceName { get; set; }
         [Display(Name = "Hourly Rate")]

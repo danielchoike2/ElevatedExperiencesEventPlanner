@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ElevatedExperiencesEventPlanner.Migrations
 {
     [DbContext(typeof(ElevatedExperiencesEventPlannerContext))]
-    [Migration("20231129025834_InitialCreate")]
+    [Migration("20231130220359_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -58,6 +58,10 @@ namespace ElevatedExperiencesEventPlanner.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("End")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

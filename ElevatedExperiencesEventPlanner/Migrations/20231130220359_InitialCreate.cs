@@ -33,6 +33,7 @@ namespace ElevatedExperiencesEventPlanner.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ScheduleDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ServiceName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Rate = table.Column<int>(type: "int", nullable: false),
                     Start = table.Column<string>(type: "nvarchar(max)", nullable: false),

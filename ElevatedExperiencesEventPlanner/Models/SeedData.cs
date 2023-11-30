@@ -82,6 +82,7 @@ namespace ElevatedExperiencesEventPlanner.Models
                    {
                        
                        ScheduleDate = DateTime.Parse("2024-2-12"),
+                       Location = "Lake Ann, Min 49650",
                        ServiceName = "DJ",
                        Rate = 30,
                        Start = "2:00PM",
@@ -92,6 +93,7 @@ namespace ElevatedExperiencesEventPlanner.Models
                    {
 
                        ScheduleDate = DateTime.Parse("2024-2-13"),
+                       Location = "Lake Ann, Min 49650",
                        ServiceName = "Photography",
                        Rate = 50,
                        Start = "1:00PM",
@@ -102,6 +104,7 @@ namespace ElevatedExperiencesEventPlanner.Models
                    {
 
                        ScheduleDate = DateTime.Parse("2024-2-14"),
+                       Location = "Lake Ann, Min 49650",
                        ServiceName = "Videography",
                        Rate = 70,
                        Start = "2:00PM",
@@ -111,6 +114,7 @@ namespace ElevatedExperiencesEventPlanner.Models
                    {
 
                        ScheduleDate = DateTime.Parse("2024-2-15"),
+                       Location = "Lake Ann, Min 49650",
                        ServiceName = "Mariachi Band",
                        Rate = 60,
                        Start = "5:00PM",
@@ -120,6 +124,7 @@ namespace ElevatedExperiencesEventPlanner.Models
                    {
 
                        ScheduleDate = DateTime.Parse("2024-2-16"),
+                       Location = "Lake Ann, Min 49650",
                        ServiceName = "Wedding Officiant",
                        Rate = 50,
                        Start = "3:00PM",

@@ -58,6 +58,10 @@ namespace ElevatedExperiencesEventPlanner.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Rate")
                         .HasColumnType("int");
 
